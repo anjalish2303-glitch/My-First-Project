@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my first project</title>
+    <style>
+        body {text-align:center;}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Fill The Form</h1>
+    </header>
+    <form action="/action.php" method="post">
+            
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="enter your full name">
+        <br><br>
+        <label>Email</label>
+        <input type="email" name="name" placeholder="enter your email">
+        <br><br>
+        <label>Password:</label>
+        <input type="password" name="name" placeholder="enter your password">
+
+        <h3>Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        
+    <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+
+        <h3>Choose Your Language</h3>
+    
+        <label for="english">English</label>
+        <input type="checkbox" value="english" name="language" id="english">  
+        <br>
+        <label for="spanish">Spanish</label>
+        <input type="checkbox" value="spanish" name="language" id="spanish">  
+        <br>      
+        <label for="italian">Italian</label>
+        <input type="checkbox" value="italian" name="language" id="italian">  
+        <br>
+        
+        <h3>Select The Subject</h3>
+        <select name="subject">
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="maths">Maths</option>
+        </select>
+        <br><br>
+        
+        <button type="Submit">Submit</button>
+        <br><br>
+        <a href="index.html">Back To Main Page</a>
+    </form>
+</body>
+</html>
